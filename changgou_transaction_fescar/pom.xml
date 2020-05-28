@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.cn.changgou</groupId>
+    <artifactId>changgou_parent</artifactId>
+    <version>${changgou.version}</version>
+  </parent>
+  <artifactId>changgou_transaction_fescar</artifactId>
+  <name>changgou_transaction_fescar</name>
+  <url>http://maven.apache.org</url>
+  <description>分布式事务模块，将分布式事务抽取到该工程中，任何工程如需要使用分布式事务，只需依赖该工程即可。</description>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  <dependencies>
+    
+  </dependencies>
+</project>

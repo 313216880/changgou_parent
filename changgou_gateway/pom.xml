@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.cn.changgou</groupId>
+    <artifactId>changgou_parent</artifactId>
+    <version>${changgou.version}</version>
+  </parent>
+  <artifactId>changgou_gateway</artifactId>
+  <name>changgou_gateway</name>
+  <packaging>pom</packaging>
+  <description>网关模块，根据网站的规模和需要，可以将综合逻辑相关的服务用网关路由组合到一起。在这里还可以做鉴权和限流相关操作。</description>
+  <url>http://maven.apache.org</url>
+  <dependencies>
+    
+    
+  </dependencies>
+  <modules>
+    <module>changgou_gateway_system</module>
+    <module>changgou_gateway_web</module>
+  </modules>
+</project>

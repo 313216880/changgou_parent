@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.cn.changgou</groupId>
+    <artifactId>changgou_parent</artifactId>
+    <version>${changgou.version}</version>
+  </parent>
+  <artifactId>changgou_service_api</artifactId>
+  <packaging>pom</packaging>
+  <name>changgou_service_api</name>
+  <url>http://maven.apache.org</url>
+  <description>对应工程的JavaBean、Feign、以及Hystrix配置，该工程主要对外提供依赖。</description>
+  <dependencies>
+    <dependency>
+         <groupId>org.springframework.cloud</groupId>
+         <artifactId>spring-cloud-starter-openfeign</artifactId>
+         <scope>provided</scope>
+     </dependency>
+     <dependency>
+         <groupId>javax.persistence</groupId>
+         <artifactId>persistence-api</artifactId>
+         <version>1.0</version>
+         <scope>compile</scope>
+     </dependency>
+  </dependencies>
+  <modules>
+    <module>changgou_service_goods_api</module>
+    <module>changgou_service_oauth_api</module>
+    <module>changgou_service_order_api</module>
+    <module>changgou_service_pay_api</module>
+    <module>changgou_service_seckill_api</module>
+    <module>changgou_service_syscenter_api</module>
+    <module>changgou_service_user_api</module>
+  </modules>
+</project>
